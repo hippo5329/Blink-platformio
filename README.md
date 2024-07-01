@@ -37,3 +37,10 @@ Build and upload to esp32 devkit. The on-board LED should blink every two second
     cd Blink-platformio
     pio run -e esp32 -t upload
 
+## More examples for Arduino
+
+You may find more [examples from Arduino](https://github.com/arduino/arduino-examples). You may try to port them to platformio the way I do.
+
+1. Create a src subdirectory. Move the .ino source into src subdirectory.
+2. Copy my platformio.ini. And, optionally, .gitignore.
+3. Build, upload and test.
